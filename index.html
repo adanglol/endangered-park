@@ -1,38 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Endangered-Park</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- CSS for our Project-->
+    <link rel="stylesheet" href="css/endangerstyle.css">
+    <!-- Incorporate fonts for our project-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marhey:wght@500&display=swap" rel="stylesheet">
 
 
-
-
-
-
-
+    <!-- Our JavaScript as well as jQuery -->
+    <script src="js/endangerpark.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
   <body>
-    <h1>HELLO WELCOME TO ENDANGER PARK</h1>
+    <div class="navbar">
+      <h1 class = "head">Endangered Park</h1>
+    </div>
+    <br>
+    <br>
 
 
 
 
+    <div class="grid">
+      <div class="col-one" id = "booby">
+        <a data-toggle="collapse" href="#boobyText"><img src="img/unknown.png" alt="" id = "bird"></a>
+        <div class="con"></div>
+      </div>
 
+      <div class="col-two" id = "dwarf">
+        <img src="img/unknown-2.png" alt="" id = "croc">
+        <div class="con2"></div>
+      </div>
+      <div class="col-three" id = "peng">
+        <img src="img/unknown-4.png" alt="" id = "uin">
+        <div class="con3"></div>
+      </div>
 
+      <div class="col-four" id = "toad">
+        <img src="img/nimba_toad.jpg" alt="" id = "vivi">
+        <div class="con4"></div>
+      </div>
 
-
-
-
-
-
-
-
-
-
-
-
+      <div class="col-five" id ="ass">
+        <img src="img/unknown-1.png" alt="" id = "donkey">
+        <div class="con5"></div>
+      </div>
+      <div class="col-six" id = "shrimp">
+        <img src="img/unknown-3.png" alt="" id = "alabama">
+        <div class="con6"></div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <!-- Use api draw more animals less description to show use -->
+    <div id="output"></div>
   </body>
 </html>
