@@ -51,7 +51,7 @@ ecosApi.done(function(data){
     $(".con2.here").html("<h1>"+ data["data"][38][0]+"</h1>" + "<h2>"+ "Scientific Name : " +
     data["data"][38][1]["value"]+"</h2>" + "<h2>"+"Status : " + data["data"][38][2] +"</h2>" +
     "<h2>"+"Reference Link : "+ data["data"][38][1]["url"]+ "</h2>" + "<br />" +
-    "<p>This smallest of the crocodile species, at only 5 feet long, inhabits rainforest and water habitats of West Africa. The adults of this species can be noted by their dark back</p>");
+    "<p>This smallest of the crocodile species, at only 5 feet long, inhabits rainforest and water habitats of West Africa. The adults of this species can be noted by their dark back.</p>");
 
 
   });
