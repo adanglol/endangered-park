@@ -8,6 +8,9 @@
     <title>Endangered-Park</title>
     <!-- CSS for our Project-->
     <link rel="stylesheet" href="css/endangerstyle.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- Incorporate fonts for our project-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,10 +27,6 @@
     </div>
     <br>
     <br>
-
-
-
-
     <div class="grid">
       <div class="col-one" id = "booby">
         <a data-toggle="collapse" href="#boobyText"><img src="img/unknown.png" alt="" id = "bird"></a>
@@ -59,7 +58,65 @@
     </div>
     <br>
     <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <br>
+
     <!-- Use api draw more animals less description to show use -->
-    <div id="output"></div>
+    <div id="output">
+      <div class="div" data-aos="fade-right" data-aos-duration="1500">
+        <h1>All of the animals that you have viewed are Endangered!</h1>
+      </div>
+      <div class="div" data-aos="fade-left" data-aos-duration="1500">
+        <h1>Not only are these animals but every day about 150-200 species of both plants and animals are lost as well.</h1>
+      </div>
+      <div class="div" data-aos="fade-right" data-aos-duration="1500">
+        <h1>From deforestation to pollution slowely but surely they are being wiped out</h1>
+      </div>
+      <div class="div" data-aos="fade-left" data-aos-duration="1500">
+        <h1>So unless we take action there will be no place to call home.</h1>
+      </div>
+
+      <div class="div" data-aos="fade-up" data-aos-duration="1500">
+        <h1>Here are also some species that are also in jeopardy!</h1>
+        <div id ="list">
+        </div>
+      </div>
+      <div class="div" data-aos="fade-down" data-aos-duration="1500">
+        <h1>Here is a video to show importance of species life.</h1>
+        <iframe width="1049" height="599" src="https://www.youtube.com/embed/E4JKRaxr8zE" title="Stop Extinction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+      <div class="div">
+        <h1>So that begs the question what can I do about it?</h1>
+        <div class="div" id = "do" data-aos="fade-right" data-aos-duration="1500">
+          <h1>It may not seem much but even your smallest contribution can make a worlds difference in trying to help preserve our habitats as well as making the world a better place.</h1>
+        </div>
+      </div>
+      <div class="div">
+        <h1>Being mindful of not littering. Volunteering at a Zoo. As well as donating to an organization in wildlife are small subtle steps that can help with protecting our wildlife. You can also search up on the web of other things as well.</h1>
+      </div>
+      <div class="div">
+        <h1>Places to donate to help protect Wildlife</h1>
+        <div id="flex">
+          <a href="https://www.worldwildlife.org/initiatives/wildlife-conservation" target = "_blank">WWF</a>
+          <a href="https://secure.wcs.org/donate/save-wildlife?ms=M_SEM_DON_03_F06_stg-evrgr-1tm-ndn-dtg-allndn-key-compt-responsive-best-halfsuper&utm_source=google&utm_medium=cpc&utm_campaign=stg-evrgr-1tm-ndn_17933049264&utm_term=dtg-allndn-key-compt_139153019185&utm_content=responsive-best-halfsuper_614471905094&gclid=EAIaIQobChMI_YmCz_ux-wIVshGtBh2g0QKdEAAYASAAEgKkxPD_BwE" target = "_blank">WCS</a>
+          <a href="https://www.nwf.org/Educational-Resources/Wildlife-Guide/Understanding-Conservation" target = "_blank">NWF</a>
+        </div>
+
+
+      </div>
+
+
+      </div>
+    <!-- </div> -->
+
+    <!-- make animations for these divs -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

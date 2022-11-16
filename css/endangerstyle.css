@@ -40,6 +40,7 @@ div.navbar {
   background-color: grey;
   border:10px solid black;
   padding:0px;
+  border-radius: 15px;
 }
 
 [class *= "col"]:hover{
@@ -125,4 +126,68 @@ div.navbar {
 .con6.here{
   display:block;
   font-family: 'Marhey', cursive;
+}
+
+#output{
+  display:grid;
+  font-family: 'Marhey', cursive;
+  grid-template-columns: auto;
+  grid-gap:5em;
+  padding:20px;
+  text-align: center;
+}
+
+#output .div{
+  background-color: grey;
+  border:10px solid black;
+}
+
+
+#list {
+  border:5px solid black;
+  border-radius: 20px;
+  text-align: left;
+  margin:20px;
+  padding:20px;
+  column-width: 200px;
+}
+
+.div#do {
+  border:5px solid black;
+  border-radius: 20px;
+  text-align: center;
+  margin:20px;
+  padding:20px;
+
+}
+
+.div iframe{
+  border:5px solid black;
+  border-radius: 20px;
+}
+
+
+/* style some div using library */
+
+#flex{
+  padding:20px;
+  display:flex;
+  justify-content: space-between;
+}
+
+#flex a{
+  /*Styling the links inside of the navbar */
+text-decoration:none;
+font-size:30px;
+color:white;
+/* Keep the spacing consistant between the links inside the navbar*/
+padding:20px;
+}
+
+#flex a:hover{
+  background-color:#a19e97;
+  color:black;
+  border-radius:10px;
+  border:5px solid black;
+
 }
