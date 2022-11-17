@@ -179,14 +179,14 @@ div.navbar {
   /*Styling the links inside of the navbar */
 text-decoration:none;
 font-size:30px;
-color:white;
+color:black;
 /* Keep the spacing consistant between the links inside the navbar*/
 padding:20px;
 }
 
 #flex a:hover{
   background-color:#a19e97;
-  color:black;
+  color:white;
   border-radius:10px;
   border:5px solid black;
 
